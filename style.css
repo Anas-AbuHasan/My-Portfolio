@@ -179,7 +179,7 @@ ul {
         -2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-#skills-div{
+#skills-div {
     background-color: white;
     margin-top: -10px;
 }
@@ -191,7 +191,7 @@ ul {
     margin: 10px;
 }
 
-#skills-ul{
+#skills-ul {
     padding: 20px;
     display: flex;
     gap: 30px;
@@ -199,8 +199,8 @@ ul {
 
 }
 
-.skills-li{
-    padding: 5px;
+.skills-li {
+    padding: 7px;
     margin: 20px;
     width: 90px;
     height: 45px;
@@ -209,30 +209,30 @@ ul {
     font-size: 20px;
 }
 
-#li-1{
+#li-1 {
     background-color: #D8B4FE;
 }
 
-#li-2{
+#li-2 {
     background-color: #93C5FD;
 }
 
-#li-3{
+#li-3 {
     background-color: #FDE047;
 }
 
-#testimonials-div{
+#testimonials-div {
     padding: 20px;
 }
 
-#testimonials-h2{
+#testimonials-h2 {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
     margin: 10px;
 }
 
-#testimonials-post{
+#testimonials-post {
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -240,7 +240,7 @@ ul {
     margin-top: 20px;
 }
 
-.inner-testimonials{
+.inner-testimonials {
     background-color: white;
     width: 500px;
     display: flex;
@@ -249,12 +249,123 @@ ul {
     gap: 10px;
 }
 
-.user-img{
+.user-img {
     width: 80px;
     height: 80px;
     border-radius: 100%;
 }
 
-.testimonials-p{
+.testimonials-p {
     margin-top: 20px;
+}
+
+#certifications-div {
+    background-image: linear-gradient(to right, #BF84FC, #3E82F7);
+    padding: 15px;
+}
+
+#certifications-h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+
+#outer-certifications {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.inner-certifications {
+    width: 800px;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.name-h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#contact-me-h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+
+#outer-massage-div {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-me-massage {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-me-massage label {
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.first-type,
+.second-type {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #6c757d;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.first-type::placeholder,
+.second-type::placeholder {
+    color: #9e9e9e;
+}
+
+.second-type {
+    height: auto;
+    min-height: 200px;
+}
+
+button {
+    background-color: #007bff;
+    margin: 40px 20px 20px 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer{
+    height: 80px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
