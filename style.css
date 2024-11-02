@@ -223,6 +223,7 @@ ul {
 
 #testimonials-div {
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 #testimonials-h2 {
@@ -409,4 +410,123 @@ footer {
     background-color: #30D14E;
     border-radius: 5px;
     transition-delay: 50ms;
+}
+
+@media screen and (max-width: 1200px) {
+    #my-pic {
+        width: 300px;
+        height: 300px;
+    }
+
+    .project-img,
+    .post-img {
+        width: 600px;
+    }
+
+    .inner-div,
+    .post-inner,
+    .inner-certifications {
+        width: 600px;
+    }
+
+    button {
+        width: 100%;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #first-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #my-pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    #name-h1 {
+        font-size: 40px;
+    }
+
+    .project-img,
+    .post-img {
+        width: 100%;
+        height: auto;
+    }
+
+    #project-div,
+    #posts-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner-div,
+    .post-inner,
+    .inner-certifications {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    button {
+        width: 100%;
+        height: 45px;
+        margin: 20px 0;
+    }
+
+    #contact-me-massage {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #title-h1, #about-h2, #my-post-h2, #skills-h2, #certifications-h2, #contact-me-h2, #testimonials-h2 {
+        font-size: 24px;
+    }
+
+    #name-h1 {
+        font-size: 30px;
+    }
+
+    #intro-p, #about-p {
+        font-size: 16px;
+    }
+
+    .project-h2, .post-h2, .project-p, .post-p, .name-h3 {
+        font-size: 18px;
+    }
+
+    .skills-li {
+        width: auto;
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    #my-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+        width: 100%;
+    }
+
+    #skills-ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #social-media {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-media-img {
+        width: 40px;
+        height: 40px;
+    }
 }
